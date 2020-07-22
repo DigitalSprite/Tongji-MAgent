@@ -1,0 +1,800 @@
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/base.py:54: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+INFO:tensorflow:Restoring parameters from data/battle_model/battle/tfdqn_0
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/base.py:54: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+INFO:tensorflow:Restoring parameters from data/battle_model/battle/tfdqn_0
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/base.py:54: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+INFO:tensorflow:Restoring parameters from data/battle_model/battle/tfdqn_0
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/a2c.py:138: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/a2c.py:149: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/layers/core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/a2c.py:167: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/a2c.py:175: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/a2c.py:69: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/a2c.py:71: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/a2c.py:72: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/base.py:54: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+INFO:tensorflow:Restoring parameters from data/battle_model/battle/tfdqn_0
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:138: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:150: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/layers/core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:172: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:181: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:69: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:71: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:72: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/base.py:54: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+INFO:tensorflow:Restoring parameters from data/battle_model/battle/tfdqn_0
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:138: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:150: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/layers/core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:172: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:181: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:69: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:71: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:72: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+INFO:root:round 0	 loss: 0	 num: [596, 595]	 reward: [-14021.215507977642, -14207.97051555384]	 value: 0
+INFO:root:round 1	 loss: 0	 num: [609, 567]	 reward: [-13975.045511271805, -13975.035504333675]	 value: 0
+INFO:root:round 2	 loss: 0	 num: [608, 538]	 reward: [-13677.510506408289, -13601.980491381139]	 value: 0
+INFO:root:round 3	 loss: 0	 num: [601, 514]	 reward: [-13377.240498888306, -13427.800485822372]	 value: 0
+INFO:root:round 4	 loss: 0	 num: [605, 455]	 reward: [-12927.780495106243, -12830.110464522615]	 value: 0
+INFO:root:round 5	 loss: 0	 num: [609, 401]	 reward: [-12652.565495195799, -12309.99544499442]	 value: 0
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/base.py:54: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+INFO:tensorflow:Restoring parameters from data/battle_model/battle/tfdqn_0
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/base.py:54: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+INFO:tensorflow:Restoring parameters from data/battle_model/battle/tfdqn_0
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/base.py:54: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+INFO:tensorflow:Restoring parameters from data/battle_model/battle/tfdqn_0
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:138: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:150: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/layers/core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:172: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:181: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /Users/yubingquan/opt/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:69: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:71: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /Users/yubingquan/code/MAgent/examples/models/tf_model/ppo.py:72: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/base.py:54: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+INFO:tensorflow:Restoring parameters from data/battle_model/battle/tfdqn_0
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/base.py:54: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+INFO:tensorflow:Restoring parameters from data/battle_model/battle/tfdqn_0
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/base.py:54: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+INFO:tensorflow:Restoring parameters from data/battle_model/battle/tfdqn_0
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/base.py:54: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+INFO:tensorflow:Restoring parameters from data/battle_model/battle/tfdqn_0
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/ppo.py:138: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/ppo.py:150: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/layers/core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/ppo.py:172: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/ppo.py:181: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/ppo.py:69: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/ppo.py:71: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/ppo.py:72: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/base.py:54: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+INFO:tensorflow:Restoring parameters from data/against_model/battle/tfdqn_0
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/ppo.py:138: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/ppo.py:150: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/layers/core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/ppo.py:172: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/ppo.py:181: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/ppo.py:69: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/ppo.py:71: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/ppo.py:72: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+

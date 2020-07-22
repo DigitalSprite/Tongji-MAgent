@@ -1,0 +1,74 @@
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
