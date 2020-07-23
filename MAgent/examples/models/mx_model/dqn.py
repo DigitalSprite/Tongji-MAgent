@@ -8,6 +8,7 @@ from ..common import ReplayBuffer
 from models.buffer import has_gpu
 
 
+
 class DeepQNetwork(MXBaseModel):
     def __init__(self, env, handle, name,
                  batch_size=64, learning_rate=1e-4, reward_decay=0.99,
