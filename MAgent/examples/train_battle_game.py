@@ -86,29 +86,28 @@ def play_a_round(env, map_size, handles, models, print_every, train=True, render
         if step_ct % print_every == 0:
             print("step %3d,  nums: %s reward: %s,  total_reward: %s " %
                   (step_ct, nums, np.around(step_reward, 2), np.around(total_reward, 2)))
-
         step_ct += 1
-        if step_ct % 50 == 0 and counter >= 0:
-            counter -= 1
-            utils.add_agents(env, 0, 0, handles, map_size, True)
-            # add_agents(env, np.random.randint(0, map_size - 1))
-            # pos = []
-            # x = np.random.randint(0, map_size - 1)
-            # y = np.random.randint(0, map_size - 1)
-            # for i in range(-4, 4):
-            #     for j in range(-4, 4):
-            #         pos.append((x + i, y + j))
-            # env.add_agents(handles[g], method="custom", pos=pos)
+        # if step_ct % 50 == 0 and counter >= 0:
+        #     counter -= 1
+        #     utils.add_agents(env, 0, 0, handles, map_size, True)
+        #     # add_agents(env, np.random.randint(0, map_size - 1))
+        #     # pos = []
+        #     # x = np.random.randint(0, map_size - 1)
+        #     # y = np.random.randint(0, map_size - 1)
+        #     # for i in range(-4, 4):
+        #     #     for j in range(-4, 4):
+        #     #         pos.append((x + i, y + j))
+        #     # env.add_agents(handles[g], method="custom", pos=pos)
 
-            # pos = []
-            # x = np.random.randint(0, map_size - 1)
-            # y = np.random.randint(0, map_size - 1)
-            # for i in range(-2, 2):
-            #     for j in range(-4, 4):
-            #         pos.append((x + i, y + j))
-            # env.add_agents(handles[g + 1], method="custom", pos=pos)
+        #     # pos = []
+        #     # x = np.random.randint(0, map_size - 1)
+        #     # y = np.random.randint(0, map_size - 1)
+        #     # for i in range(-2, 2):
+        #     #     for j in range(-4, 4):
+        #     #         pos.append((x + i, y + j))
+        #     # env.add_agents(handles[g + 1], method="custom", pos=pos)
 
-            step_ct = 0
+        #     step_ct = 0
         if step_ct > 500:
             break
 
@@ -135,7 +134,7 @@ def play_a_round(env, map_size, handles, models, print_every, train=True, render
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--save_every", type=int, default=50)
+    parser.add_argument("--save_every", type=int, default=10)
     parser.add_argument("--render_every", type=int, default=10)
     parser.add_argument("--n_round", type=int, default=1500)
     parser.add_argument("--render", action="store_true")
@@ -202,7 +201,7 @@ if __name__ == "__main__":
         models.append(ProcessingModel(env, handles[i], names[i], 20000, 1000, RLModel, **model_args))
 
     # load if
-    savedir = 'save_model'
+    savedir = 'data/battle_model_1000_vs_500'
     if args.load_from is not None:
         start_from = args.load_from
         print("load ... %d" % start_from)
@@ -230,10 +229,10 @@ if __name__ == "__main__":
         print("round time %.2f  total time %.2f\n" % (time.time() - tic, time.time() - start))
 
         # save models
-        # if (k + 1) % args.save_every == 0 and args.train:
-        print("save model... ")
-        for model in models:
-            model.save(savedir, k+1)
+        if (k + 1) % args.save_every == 0 and args.train:
+            print("save model... ")
+            for model in models:
+                model.save(savedir, k+1)
 
     # send quit command
     for model in models:

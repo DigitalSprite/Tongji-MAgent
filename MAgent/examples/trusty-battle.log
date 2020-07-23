@@ -72,3 +72,596 @@ WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/example
 
 WARNING:tensorflow:From /home/stephen/Desktop/Projects/New Magent/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+INFO:root:round 0	 loss: [0, 0]	 num: [976, 497]	 reward: [-852505.27, -171958.27]	 value: [0, 0]
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/base.py:39: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/base.py:39: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+INFO:root:round 0	 loss: [0.03, 0.3]	 num: [993, 500]	 reward: [-889679.26, -243003.17]	 value: [-12.3, -3.05]
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/base.py:39: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/base.py:39: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+INFO:root:round 0	 loss: [0.04, 0.68]	 num: [985, 499]	 reward: [-664645.68, -311397.19]	 value: [-8.17, -4.3]
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/base.py:39: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/base.py:39: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+INFO:root:round 1	 loss: [0.07, 0.53]	 num: [990, 496]	 reward: [-1031669.74, -166009.82]	 value: [-19.21, -6.85]
+INFO:root:round 2	 loss: [0.1, 0.56]	 num: [981, 496]	 reward: [-675527.72, -245927.75]	 value: [-27.06, -9.33]
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:91: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:93: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:165: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:170: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:110: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/stephen/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:118: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:129: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:132: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:135: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:137: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/dqn.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+INFO:root:round 0	 loss: [0.12, 1.29]	 num: [971, 496]	 reward: [-733385.21, -188320.91]	 value: [-9.37, -2.02]
+INFO:root:round 1	 loss: [0.11, 1.2]	 num: [968, 495]	 reward: [-855873.06, -177917.56]	 value: [-19.1, -3.17]
+INFO:root:round 2	 loss: [0.15, 1.17]	 num: [976, 493]	 reward: [-578270.8, -214565.69]	 value: [-26.29, -3.81]
+INFO:root:round 3	 loss: [0.2, 1.24]	 num: [990, 499]	 reward: [-806897.63, -276085.89]	 value: [-34.72, -4.84]
+INFO:root:round 4	 loss: [0.25, 1.94]	 num: [952, 493]	 reward: [-626337.45, -215090.35]	 value: [-40.13, -4.01]
+INFO:root:round 5	 loss: [0.36, 2.81]	 num: [972, 499]	 reward: [-883961.4, -174809.83]	 value: [-44.51, -1.32]
+INFO:root:round 6	 loss: [0.45, 4.16]	 num: [989, 498]	 reward: [-1023267.58, -191140.74]	 value: [-52.05, 0.58]
+INFO:root:round 7	 loss: [0.65, 5.94]	 num: [972, 497]	 reward: [-756285.61, -224631.77]	 value: [-52.76, 3.76]
+INFO:root:round 8	 loss: [0.93, 8.24]	 num: [974, 498]	 reward: [-963820.74, -233186.97]	 value: [-60.03, 8.83]
+INFO:root:round 9	 loss: [1.17, 10.73]	 num: [972, 495]	 reward: [-1011888.37, -211809.55]	 value: [-67.73, 17.81]
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/base.py:39: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+WARNING:tensorflow:From /home/stephen/Desktop/Tongji-MAgent/MAgent/examples/models/tf_model/base.py:39: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+INFO:root:round 10	 loss: [1.48, 13.31]	 num: [945, 494]	 reward: [-890301.75, -175052.96]	 value: [-63.26, 20.65]
+INFO:root:round 11	 loss: [1.61, 14.53]	 num: [988, 500]	 reward: [-995947.6, -265713.05]	 value: [-63.73, 31.56]
+INFO:root:round 12	 loss: [1.71, 17.05]	 num: [890, 485]	 reward: [-587572.45, -166426.55]	 value: [-51.98, 40.32]
+INFO:root:round 13	 loss: [1.64, 20.21]	 num: [835, 483]	 reward: [-554063.08, -185756.23]	 value: [-45.29, 50.9]
+INFO:root:round 14	 loss: [1.43, 24.27]	 num: [898, 474]	 reward: [-586699.5, -173663.25]	 value: [-43.7, 63.56]
+INFO:root:round 15	 loss: [1.24, 29.17]	 num: [864, 484]	 reward: [-693977.54, -150510.67]	 value: [-31.33, 70.44]
+INFO:root:round 16	 loss: [1.13, 33.56]	 num: [901, 492]	 reward: [-794774.84, -171005.84]	 value: [-33.52, 91.46]
+INFO:root:round 17	 loss: [0.84, 38.9]	 num: [907, 493]	 reward: [-622719.04, -246925.53]	 value: [-32.5, 98.67]
+INFO:root:round 18	 loss: [0.7, 45.01]	 num: [872, 490]	 reward: [-762816.58, -176172.94]	 value: [-34.58, 115.78]
+INFO:root:round 19	 loss: [0.75, 51.94]	 num: [800, 465]	 reward: [-580615.18, -152783.1]	 value: [-33.84, 141.58]
+INFO:root:round 20	 loss: [0.61, 57.41]	 num: [894, 491]	 reward: [-625509.34, -235884.16]	 value: [-31.04, 162.98]
+INFO:root:round 21	 loss: [0.63, 65.26]	 num: [707, 473]	 reward: [-693729.55, -201634.52]	 value: [-31.93, 168.77]
+INFO:root:round 22	 loss: [0.9, 71.75]	 num: [705, 460]	 reward: [-495871.94, -126429.87]	 value: [-32.18, 191.7]
+INFO:root:round 23	 loss: [1.04, 81.51]	 num: [661, 449]	 reward: [-526581.27, -171578.29]	 value: [-29.7, 202.61]
+INFO:root:round 24	 loss: [1.0, 86.72]	 num: [831, 487]	 reward: [-617459.8, -201823.04]	 value: [-29.8, 208.55]
+INFO:root:round 25	 loss: [1.04, 96.64]	 num: [821, 489]	 reward: [-806804.54, -203989.35]	 value: [-33.16, 251.13]
+INFO:root:round 26	 loss: [0.94, 102.41]	 num: [779, 473]	 reward: [-655384.33, -144776.82]	 value: [-32.25, 267.2]
+INFO:root:round 27	 loss: [1.02, 111.81]	 num: [653, 445]	 reward: [-501700.32, -121816.37]	 value: [-34.5, 281.74]
+INFO:root:round 28	 loss: [1.15, 118.96]	 num: [794, 456]	 reward: [-840203.76, -199091.05]	 value: [-36.91, 299.13]
+INFO:root:round 29	 loss: [1.42, 132.11]	 num: [710, 439]	 reward: [-496977.67, -147196.5]	 value: [-32.49, 327.57]
+INFO:root:round 30	 loss: [1.73, 140.64]	 num: [765, 425]	 reward: [-533019.93, -238563.26]	 value: [-29.5, 337.55]
+INFO:root:round 31	 loss: [2.02, 175.1]	 num: [612, 397]	 reward: [-674518.96, -118915.39]	 value: [-26.68, 361.85]
+INFO:root:round 32	 loss: [2.32, 187.23]	 num: [642, 391]	 reward: [-428271.74, -137806.17]	 value: [-19.86, 375.2]
+INFO:root:round 33	 loss: [2.51, 205.05]	 num: [662, 437]	 reward: [-528395.19, -138913.94]	 value: [-14.12, 398.34]
+INFO:root:round 34	 loss: [3.15, 259.22]	 num: [630, 372]	 reward: [-495478.29, -114631.32]	 value: [-7.46, 432.95]
+INFO:root:round 35	 loss: [3.8, 302.86]	 num: [622, 369]	 reward: [-572755.25, -100226.46]	 value: [-4.83, 451.28]
+INFO:root:round 36	 loss: [4.6, 346.22]	 num: [642, 337]	 reward: [-501156.74, -86409.15]	 value: [3.36, 492.37]
+INFO:root:round 37	 loss: [5.63, 368.66]	 num: [863, 456]	 reward: [-769579.61, -214771.59]	 value: [5.01, 506.82]
+INFO:root:round 38	 loss: [7.88, 387.62]	 num: [670, 370]	 reward: [-517450.94, -109041.29]	 value: [15.47, 522.75]
+INFO:root:round 39	 loss: [10.67, 435.35]	 num: [516, 333]	 reward: [-366854.84, -89935.36]	 value: [25.17, 549.13]
+INFO:root:round 40	 loss: [13.28, 435.04]	 num: [645, 356]	 reward: [-643748.45, -174555.64]	 value: [38.76, 554.48]
+INFO:root:round 41	 loss: [15.1, 443.47]	 num: [875, 438]	 reward: [-598525.35, -259313.73]	 value: [38.37, 555.98]
+INFO:root:round 42	 loss: [19.66, 488.59]	 num: [582, 344]	 reward: [-400995.51, -105798.51]	 value: [56.24, 571.61]
+INFO:root:round 43	 loss: [24.09, 542.41]	 num: [562, 314]	 reward: [-492059.83, -129889.57]	 value: [64.7, 610.47]
+INFO:root:round 44	 loss: [30.24, 548.63]	 num: [641, 337]	 reward: [-407065.95, -140018.62]	 value: [81.45, 615.61]
+INFO:root:round 45	 loss: [42.3, 593.46]	 num: [560, 338]	 reward: [-406180.94, -85023.48]	 value: [100.35, 629.65]
+INFO:root:round 46	 loss: [51.4, 644.96]	 num: [728, 396]	 reward: [-485789.2, -195411.74]	 value: [117.5, 640.55]
+INFO:root:round 47	 loss: [62.39, 717.14]	 num: [451, 286]	 reward: [-334245.02, -52362.26]	 value: [138.93, 680.55]
+INFO:root:round 48	 loss: [76.62, 733.68]	 num: [494, 319]	 reward: [-338112.9, -102071.49]	 value: [158.65, 663.07]
+INFO:root:round 49	 loss: [96.49, 829.48]	 num: [260, 214]	 reward: [-240004.42, -24625.56]	 value: [184.69, 712.55]
+INFO:root:round 50	 loss: [109.47, 883.99]	 num: [543, 336]	 reward: [-331657.77, -104662.75]	 value: [197.11, 739.7]
+INFO:root:round 51	 loss: [131.21, 948.19]	 num: [465, 256]	 reward: [-281243.59, -94591.66]	 value: [227.11, 758.37]
+INFO:root:round 52	 loss: [144.47, 998.34]	 num: [337, 290]	 reward: [-265141.94, -47334.34]	 value: [242.29, 766.06]
+INFO:root:round 53	 loss: [145.7, 1083.2]	 num: [512, 311]	 reward: [-308241.24, -137001.99]	 value: [259.27, 808.88]
+INFO:root:round 54	 loss: [138.07, 1090.64]	 num: [505, 312]	 reward: [-291511.32, -123674.33]	 value: [260.0, 807.62]
+INFO:root:round 55	 loss: [152.8, 1185.29]	 num: [421, 301]	 reward: [-326136.12, -64454.07]	 value: [267.81, 819.38]
+INFO:root:round 56	 loss: [153.29, 1273.84]	 num: [567, 292]	 reward: [-496844.57, -140451.02]	 value: [265.07, 853.83]
+INFO:root:round 57	 loss: [172.55, 1253.77]	 num: [294, 245]	 reward: [-318236.75, -55581.36]	 value: [273.96, 840.37]
+INFO:root:round 58	 loss: [177.38, 1268.38]	 num: [467, 245]	 reward: [-347433.73, -118548.28]	 value: [286.93, 845.45]
+INFO:root:round 59	 loss: [192.22, 1205.42]	 num: [443, 321]	 reward: [-411904.11, -46221.07]	 value: [311.99, 848.06]
+INFO:root:round 60	 loss: [196.39, 1176.74]	 num: [544, 302]	 reward: [-492035.93, -65215.08]	 value: [310.67, 867.31]
+INFO:root:round 61	 loss: [213.46, 1193.26]	 num: [471, 292]	 reward: [-419365.48, -72497.58]	 value: [323.76, 871.36]
+INFO:root:round 62	 loss: [212.98, 1236.33]	 num: [509, 310]	 reward: [-579011.3, -82893.77]	 value: [327.14, 860.82]
+INFO:root:round 63	 loss: [219.81, 1262.54]	 num: [335, 262]	 reward: [-302044.2, -88755.31]	 value: [335.83, 854.96]
+INFO:root:round 64	 loss: [221.39, 1215.4]	 num: [515, 342]	 reward: [-334181.74, -147052.92]	 value: [352.71, 870.27]
+INFO:root:round 65	 loss: [250.32, 1241.19]	 num: [246, 220]	 reward: [-344908.95, -29447.44]	 value: [362.68, 849.01]
+INFO:root:round 66	 loss: [253.44, 1363.31]	 num: [290, 213]	 reward: [-311409.37, -17061.04]	 value: [369.07, 865.37]
+INFO:root:round 67	 loss: [255.18, 1273.63]	 num: [369, 278]	 reward: [-347211.72, -55682.38]	 value: [388.73, 891.33]
+INFO:root:round 68	 loss: [272.85, 1378.38]	 num: [341, 253]	 reward: [-311262.02, -61039.21]	 value: [386.01, 910.03]
+INFO:root:round 69	 loss: [291.99, 1469.82]	 num: [275, 229]	 reward: [-323705.14, -38763.94]	 value: [402.69, 897.07]
+INFO:root:round 70	 loss: [295.4, 1382.95]	 num: [554, 347]	 reward: [-397633.98, -101935.6]	 value: [396.99, 891.16]
+INFO:root:round 71	 loss: [309.68, 1467.44]	 num: [150, 234]	 reward: [-316894.04, -19422.6]	 value: [406.32, 890.35]
+INFO:root:round 72	 loss: [322.32, 1707.84]	 num: [214, 184]	 reward: [-199218.71, -36428.37]	 value: [410.04, 956.0]
+INFO:root:round 73	 loss: [329.19, 1768.17]	 num: [315, 265]	 reward: [-379665.96, -42031.13]	 value: [410.21, 949.04]
+INFO:root:round 74	 loss: [346.76, 1825.46]	 num: [179, 229]	 reward: [-284253.12, -46865.77]	 value: [414.97, 951.26]
+INFO:root:round 75	 loss: [358.87, 1813.55]	 num: [82, 277]	 reward: [-224190.87, 432.47]	 value: [410.99, 970.71]
+INFO:root:round 76	 loss: [353.84, 1894.64]	 num: [414, 279]	 reward: [-468203.71, -48291.38]	 value: [423.16, 1026.8]
+INFO:root:round 77	 loss: [327.42, 1786.29]	 num: [365, 267]	 reward: [-418074.42, -70629.16]	 value: [412.63, 947.39]
+INFO:root:round 78	 loss: [337.85, 1901.5]	 num: [111, 228]	 reward: [-223645.06, -2512.71]	 value: [409.21, 1020.06]
+INFO:root:round 79	 loss: [318.96, 1939.74]	 num: [130, 208]	 reward: [-219871.73, -5076.33]	 value: [417.5, 1015.48]
+INFO:root:round 80	 loss: [333.97, 2041.58]	 num: [136, 263]	 reward: [-295369.61, -5601.97]	 value: [421.37, 1057.23]
+INFO:root:round 81	 loss: [320.82, 2095.48]	 num: [199, 242]	 reward: [-356592.84, -17668.98]	 value: [404.04, 1065.72]
+INFO:root:round 82	 loss: [317.68, 1967.41]	 num: [48, 283]	 reward: [-235057.7, -10814.28]	 value: [413.27, 1082.39]
+INFO:root:round 83	 loss: [346.82, 1804.16]	 num: [97, 259]	 reward: [-201622.69, -8138.79]	 value: [409.4, 1057.02]
+INFO:root:round 84	 loss: [308.86, 1834.6]	 num: [302, 298]	 reward: [-300158.14, -108598.61]	 value: [407.87, 1045.42]
+INFO:root:round 85	 loss: [281.7, 1774.56]	 num: [198, 278]	 reward: [-383648.33, -48336.82]	 value: [397.03, 1057.41]
+INFO:root:round 86	 loss: [274.27, 1705.56]	 num: [70, 288]	 reward: [-233301.72, -2244.79]	 value: [395.44, 1085.29]
+INFO:root:round 87	 loss: [271.59, 1718.26]	 num: [190, 303]	 reward: [-272885.25, -38001.0]	 value: [390.97, 1082.5]
+INFO:root:round 88	 loss: [253.72, 1577.41]	 num: [143, 283]	 reward: [-345013.45, -26546.04]	 value: [377.35, 1098.25]
+INFO:root:round 89	 loss: [245.17, 1494.58]	 num: [102, 295]	 reward: [-339350.5, -10927.16]	 value: [369.64, 1082.07]
+INFO:root:round 90	 loss: [263.58, 1653.76]	 num: [39, 231]	 reward: [-226083.82, 6244.21]	 value: [367.92, 1086.07]
+INFO:root:round 91	 loss: [274.9, 1558.58]	 num: [241, 306]	 reward: [-229954.15, -37746.66]	 value: [381.23, 1110.13]
+INFO:root:round 92	 loss: [261.71, 1660.72]	 num: [151, 261]	 reward: [-251824.99, -9966.98]	 value: [377.08, 1122.1]
+INFO:root:round 93	 loss: [249.9, 1659.34]	 num: [251, 250]	 reward: [-285224.27, -82240.08]	 value: [365.59, 1140.1]
+INFO:root:round 94	 loss: [254.04, 1537.11]	 num: [236, 345]	 reward: [-349336.14, -35944.15]	 value: [359.56, 1131.21]
+INFO:root:round 95	 loss: [254.77, 1519.44]	 num: [103, 261]	 reward: [-331802.4, -9762.04]	 value: [356.73, 1159.8]
+INFO:root:round 96	 loss: [231.76, 1512.82]	 num: [185, 281]	 reward: [-243647.07, -16946.56]	 value: [339.42, 1151.61]
+INFO:root:round 97	 loss: [238.4, 1544.79]	 num: [190, 253]	 reward: [-187150.67, -44416.34]	 value: [343.08, 1173.16]
+INFO:root:round 98	 loss: [232.59, 1564.15]	 num: [53, 262]	 reward: [-201669.05, 5992.45]	 value: [345.49, 1218.0]
+INFO:root:round 99	 loss: [237.0, 1580.84]	 num: [50, 265]	 reward: [-159352.35, 9927.43]	 value: [341.61, 1229.23]
+INFO:root:round 100	 loss: [225.46, 1464.69]	 num: [182, 236]	 reward: [-273381.83, -19603.03]	 value: [336.88, 1224.87]
+INFO:root:round 101	 loss: [223.5, 1421.74]	 num: [137, 294]	 reward: [-372327.72, -36806.33]	 value: [335.69, 1201.62]
+INFO:root:round 102	 loss: [213.79, 1400.03]	 num: [226, 318]	 reward: [-208547.19, -45498.67]	 value: [334.65, 1248.25]
+INFO:root:round 103	 loss: [215.24, 1344.75]	 num: [187, 283]	 reward: [-358527.92, -42724.96]	 value: [339.82, 1216.52]
+INFO:root:round 104	 loss: [218.08, 1387.39]	 num: [104, 192]	 reward: [-276357.44, -5464.46]	 value: [332.58, 1223.99]
+INFO:root:round 105	 loss: [211.24, 1385.26]	 num: [162, 244]	 reward: [-237554.1, -35135.86]	 value: [322.43, 1231.46]
+INFO:root:round 106	 loss: [212.35, 1358.61]	 num: [45, 234]	 reward: [-132541.59, 6871.88]	 value: [321.23, 1221.39]
+INFO:root:round 107	 loss: [211.21, 1319.31]	 num: [81, 305]	 reward: [-295471.04, -7303.69]	 value: [317.98, 1232.81]
+INFO:root:round 108	 loss: [216.52, 1313.47]	 num: [77, 292]	 reward: [-286886.89, -7671.83]	 value: [325.63, 1239.48]
+INFO:root:round 109	 loss: [223.26, 1305.75]	 num: [65, 257]	 reward: [-208603.98, -15012.68]	 value: [319.61, 1236.41]
+INFO:root:round 110	 loss: [228.17, 1289.54]	 num: [38, 306]	 reward: [-206773.83, -35913.83]	 value: [321.68, 1246.33]
+INFO:root:round 111	 loss: [222.61, 1242.86]	 num: [45, 283]	 reward: [-196819.18, -37046.53]	 value: [317.55, 1210.4]
+INFO:root:round 112	 loss: [228.18, 1302.17]	 num: [98, 262]	 reward: [-351283.48, -22494.87]	 value: [310.95, 1193.45]
+INFO:root:round 113	 loss: [214.59, 1364.16]	 num: [81, 303]	 reward: [-332373.53, -41945.27]	 value: [291.48, 1189.52]
+INFO:root:round 114	 loss: [211.08, 1349.11]	 num: [83, 275]	 reward: [-271786.79, -15781.32]	 value: [305.14, 1195.79]
+INFO:root:round 115	 loss: [212.65, 1318.36]	 num: [67, 304]	 reward: [-219840.16, 8508.88]	 value: [310.73, 1199.83]
+INFO:root:round 116	 loss: [224.45, 1331.17]	 num: [58, 269]	 reward: [-243943.89, -4582.24]	 value: [305.06, 1184.18]
+INFO:root:round 117	 loss: [218.33, 1331.03]	 num: [81, 266]	 reward: [-292594.57, -8330.62]	 value: [292.76, 1180.36]
+INFO:root:round 118	 loss: [208.07, 1299.04]	 num: [152, 262]	 reward: [-331916.58, -54968.49]	 value: [294.82, 1193.26]
+INFO:root:round 119	 loss: [202.89, 1366.08]	 num: [57, 294]	 reward: [-258364.05, -35182.4]	 value: [297.34, 1238.26]
+INFO:root:round 120	 loss: [200.48, 1358.49]	 num: [16, 362]	 reward: [-158989.93, -14250.57]	 value: [301.07, 1201.9]
+INFO:root:round 121	 loss: [207.68, 1455.18]	 num: [60, 291]	 reward: [-230489.1, -39758.61]	 value: [303.0, 1184.11]
+INFO:root:round 122	 loss: [209.13, 1469.15]	 num: [30, 270]	 reward: [-183954.56, -10323.23]	 value: [300.8, 1249.9]
+INFO:root:round 123	 loss: [205.09, 1456.68]	 num: [67, 273]	 reward: [-241051.82, -13818.37]	 value: [286.52, 1242.38]
+INFO:root:round 124	 loss: [203.86, 1485.79]	 num: [21, 326]	 reward: [-190957.11, 9053.51]	 value: [293.45, 1216.15]
+INFO:root:round 125	 loss: [215.12, 1426.62]	 num: [41, 349]	 reward: [-188998.06, -18643.16]	 value: [307.25, 1272.27]
+INFO:root:round 126	 loss: [193.22, 1359.33]	 num: [469, 415]	 reward: [-503316.04, -60586.01]	 value: [304.68, 1240.66]
+INFO:root:round 127	 loss: [195.36, 1360.36]	 num: [55, 280]	 reward: [-165400.52, -7614.88]	 value: [305.0, 1290.81]
+INFO:root:round 128	 loss: [206.91, 1357.68]	 num: [18, 290]	 reward: [-177224.1, 16412.03]	 value: [291.22, 1291.06]
+INFO:root:round 129	 loss: [207.54, 1373.22]	 num: [19, 279]	 reward: [-151644.94, -5614.34]	 value: [300.56, 1266.4]
+INFO:root:round 130	 loss: [208.99, 1378.55]	 num: [121, 258]	 reward: [-296669.44, -7022.5]	 value: [294.25, 1285.65]
+INFO:root:round 131	 loss: [201.55, 1368.45]	 num: [52, 361]	 reward: [-182507.5, -6118.87]	 value: [295.55, 1272.01]
+INFO:root:round 132	 loss: [203.83, 1418.73]	 num: [18, 312]	 reward: [-241256.76, -2409.57]	 value: [294.58, 1285.47]
+INFO:root:round 133	 loss: [219.09, 1410.09]	 num: [36, 244]	 reward: [-175604.32, -18107.67]	 value: [304.15, 1244.05]
+INFO:root:round 134	 loss: [230.7, 1465.25]	 num: [32, 246]	 reward: [-166478.35, 10910.95]	 value: [307.03, 1286.48]
+INFO:root:round 135	 loss: [217.57, 1445.79]	 num: [23, 325]	 reward: [-255529.37, -2313.74]	 value: [301.78, 1265.75]
+INFO:root:round 136	 loss: [211.08, 1529.83]	 num: [25, 307]	 reward: [-222687.2, -5938.52]	 value: [296.15, 1249.54]
+INFO:root:round 137	 loss: [213.06, 1587.41]	 num: [74, 223]	 reward: [-197567.03, -12986.36]	 value: [299.1, 1260.34]
+INFO:root:round 138	 loss: [213.52, 1584.49]	 num: [28, 310]	 reward: [-230995.89, 3172.6]	 value: [292.32, 1258.95]
+INFO:root:round 139	 loss: [223.41, 1558.21]	 num: [35, 295]	 reward: [-233416.32, 4371.01]	 value: [297.13, 1227.71]
+INFO:root:round 140	 loss: [230.86, 1568.4]	 num: [13, 329]	 reward: [-181253.8, 7649.78]	 value: [294.15, 1227.59]
+INFO:root:round 141	 loss: [201.88, 1489.75]	 num: [303, 399]	 reward: [-466834.88, -72367.51]	 value: [276.6, 1231.56]
+INFO:root:round 142	 loss: [202.98, 1425.16]	 num: [89, 280]	 reward: [-190403.87, -4766.07]	 value: [278.24, 1259.88]
+INFO:root:round 143	 loss: [178.29, 1427.44]	 num: [443, 402]	 reward: [-258598.91, -113786.66]	 value: [289.48, 1217.42]
+INFO:root:round 144	 loss: [173.43, 1440.57]	 num: [16, 301]	 reward: [-238902.28, -22443.91]	 value: [282.36, 1219.73]
+INFO:root:round 145	 loss: [167.02, 1463.99]	 num: [28, 332]	 reward: [-276058.62, -33194.51]	 value: [265.22, 1192.98]
+INFO:root:round 146	 loss: [146.89, 1476.22]	 num: [321, 375]	 reward: [-292249.7, -62378.19]	 value: [280.33, 1240.81]
+INFO:root:round 147	 loss: [151.97, 1527.2]	 num: [14, 272]	 reward: [-151169.05, -9503.81]	 value: [277.38, 1219.01]
+INFO:root:round 148	 loss: [147.05, 1494.97]	 num: [642, 372]	 reward: [-282353.95, -165953.45]	 value: [284.45, 1228.03]
+INFO:root:round 149	 loss: [139.21, 1510.82]	 num: [291, 325]	 reward: [-275900.98, -79260.01]	 value: [280.1, 1244.65]
+INFO:root:round 150	 loss: [136.49, 1364.2]	 num: [297, 363]	 reward: [-439210.8, -47943.25]	 value: [272.83, 1230.33]
+INFO:root:round 151	 loss: [135.33, 1433.98]	 num: [148, 320]	 reward: [-280115.1, -45898.26]	 value: [275.75, 1248.28]
+INFO:root:round 152	 loss: [157.59, 1432.63]	 num: [15, 314]	 reward: [-177657.96, 911.64]	 value: [278.2, 1236.83]
+INFO:root:round 153	 loss: [158.78, 1404.83]	 num: [41, 324]	 reward: [-248623.24, 1778.58]	 value: [276.27, 1268.86]
+INFO:root:round 154	 loss: [158.92, 1390.15]	 num: [8, 381]	 reward: [-253444.83, -17826.68]	 value: [260.34, 1278.32]
+INFO:root:round 155	 loss: [156.53, 1410.4]	 num: [112, 321]	 reward: [-202673.33, -37589.0]	 value: [264.14, 1290.85]
+INFO:root:round 156	 loss: [159.26, 1421.42]	 num: [33, 347]	 reward: [-298723.53, -32232.11]	 value: [261.33, 1294.64]
+INFO:root:round 157	 loss: [180.84, 1416.06]	 num: [9, 239]	 reward: [-176544.59, 3676.52]	 value: [260.62, 1298.65]
+INFO:root:round 158	 loss: [195.12, 1482.81]	 num: [6, 280]	 reward: [-152702.67, 5329.62]	 value: [268.29, 1275.2]
+INFO:root:round 159	 loss: [194.14, 1493.38]	 num: [49, 259]	 reward: [-217293.78, 3335.74]	 value: [272.88, 1279.46]
+INFO:root:round 160	 loss: [191.3, 1516.02]	 num: [8, 357]	 reward: [-126161.28, -4839.58]	 value: [269.25, 1290.54]
+INFO:root:round 161	 loss: [174.73, 1506.32]	 num: [48, 420]	 reward: [-342620.82, -30416.52]	 value: [255.98, 1262.37]
+INFO:root:round 162	 loss: [191.06, 1550.01]	 num: [6, 281]	 reward: [-139855.31, 647.38]	 value: [266.35, 1285.0]
+INFO:root:round 163	 loss: [207.45, 1589.44]	 num: [7, 295]	 reward: [-113980.06, 17772.76]	 value: [272.65, 1312.27]
+INFO:root:round 164	 loss: [212.66, 1605.67]	 num: [5, 264]	 reward: [-141464.41, 6792.99]	 value: [272.79, 1316.64]
+INFO:root:round 165	 loss: [214.34, 1661.91]	 num: [17, 428]	 reward: [-150319.24, -53483.31]	 value: [271.77, 1285.76]
+INFO:root:round 166	 loss: [199.5, 1634.33]	 num: [4, 339]	 reward: [-157258.66, 551.74]	 value: [260.21, 1218.7]
+INFO:root:round 167	 loss: [198.07, 1545.48]	 num: [6, 339]	 reward: [-145009.8, -6761.54]	 value: [262.07, 1260.24]
+INFO:root:round 168	 loss: [192.16, 1528.06]	 num: [6, 316]	 reward: [-167196.12, 8562.57]	 value: [260.44, 1231.06]
+INFO:root:round 169	 loss: [182.9, 1490.46]	 num: [7, 349]	 reward: [-144455.49, -25543.99]	 value: [253.28, 1249.1]
+INFO:root:round 170	 loss: [187.79, 1478.89]	 num: [62, 277]	 reward: [-331008.7, -13409.54]	 value: [254.99, 1250.08]
+INFO:root:round 171	 loss: [176.95, 1450.84]	 num: [5, 383]	 reward: [-114858.33, -7989.94]	 value: [259.41, 1209.69]
+INFO:root:round 172	 loss: [168.93, 1420.11]	 num: [11, 366]	 reward: [-117751.29, -9334.01]	 value: [255.95, 1218.37]
+INFO:root:round 173	 loss: [157.17, 1372.66]	 num: [15, 358]	 reward: [-250187.26, -12400.16]	 value: [242.52, 1215.98]
+INFO:root:round 174	 loss: [154.48, 1398.68]	 num: [31, 265]	 reward: [-198116.73, -17291.99]	 value: [240.08, 1200.06]
+INFO:root:round 175	 loss: [158.13, 1366.77]	 num: [5, 312]	 reward: [-179330.37, 9535.99]	 value: [239.28, 1198.18]
+INFO:root:round 176	 loss: [159.26, 1414.25]	 num: [9, 403]	 reward: [-128383.54, -36661.81]	 value: [234.21, 1210.86]
+INFO:root:round 177	 loss: [155.11, 1443.78]	 num: [10, 285]	 reward: [-243093.81, -10040.36]	 value: [225.45, 1206.75]
+INFO:root:round 178	 loss: [163.19, 1454.41]	 num: [10, 289]	 reward: [-133189.01, 13497.43]	 value: [238.12, 1218.7]
+INFO:root:round 179	 loss: [162.74, 1444.87]	 num: [11, 302]	 reward: [-240301.53, -5789.07]	 value: [237.0, 1173.91]
+INFO:root:round 180	 loss: [160.9, 1573.36]	 num: [8, 290]	 reward: [-127671.37, 2176.2]	 value: [243.7, 1210.63]
+INFO:root:round 181	 loss: [167.26, 1503.59]	 num: [23, 235]	 reward: [-200808.83, 21549.34]	 value: [248.76, 1189.12]
+INFO:root:round 182	 loss: [169.32, 1525.39]	 num: [58, 327]	 reward: [-159338.97, -27434.51]	 value: [250.84, 1239.37]
+INFO:root:round 183	 loss: [168.23, 1489.4]	 num: [3, 413]	 reward: [-195540.9, -27778.22]	 value: [243.83, 1240.64]
+INFO:root:round 184	 loss: [173.49, 1554.47]	 num: [9, 298]	 reward: [-118608.14, 21456.23]	 value: [247.7, 1237.4]
+INFO:root:round 185	 loss: [165.01, 1502.74]	 num: [37, 323]	 reward: [-195488.27, -1171.14]	 value: [245.36, 1218.81]
+INFO:root:round 186	 loss: [171.35, 1556.97]	 num: [8, 287]	 reward: [-126681.78, 4292.93]	 value: [243.93, 1252.9]
+INFO:root:round 187	 loss: [165.62, 1665.67]	 num: [10, 264]	 reward: [-163666.61, 8959.34]	 value: [245.89, 1220.19]
+INFO:root:round 188	 loss: [170.3, 1629.15]	 num: [3, 303]	 reward: [-80959.06, 13487.59]	 value: [246.01, 1246.63]
+INFO:root:round 189	 loss: [174.99, 1703.61]	 num: [1, 285]	 reward: [-159762.57, 6343.55]	 value: [248.94, 1238.52]
+INFO:root:round 190	 loss: [174.55, 1729.76]	 num: [10, 328]	 reward: [-180313.42, -5729.44]	 value: [244.07, 1175.95]
+INFO:root:round 191	 loss: [168.63, 1756.8]	 num: [10, 285]	 reward: [-113150.63, 14408.99]	 value: [248.86, 1207.24]
+INFO:root:round 192	 loss: [166.19, 1689.1]	 num: [28, 311]	 reward: [-195763.25, -8778.92]	 value: [238.93, 1216.56]
+INFO:root:round 193	 loss: [161.21, 1717.96]	 num: [4, 258]	 reward: [-207950.56, -7827.33]	 value: [243.22, 1250.9]
+INFO:root:round 194	 loss: [151.02, 1787.23]	 num: [12, 316]	 reward: [-191789.43, 11299.69]	 value: [242.59, 1225.76]
+INFO:root:round 195	 loss: [148.93, 1811.18]	 num: [2, 342]	 reward: [-94576.08, 3301.05]	 value: [242.08, 1202.68]
+INFO:root:round 196	 loss: [150.09, 1802.83]	 num: [2, 355]	 reward: [-161838.18, -31864.79]	 value: [233.69, 1197.84]
+INFO:root:round 197	 loss: [150.52, 1843.02]	 num: [27, 245]	 reward: [-122198.48, 9221.69]	 value: [231.92, 1192.07]
+INFO:root:round 198	 loss: [134.44, 1698.29]	 num: [94, 361]	 reward: [-179719.48, -28697.64]	 value: [218.95, 1169.2]
+INFO:root:round 199	 loss: [98.59, 1462.99]	 num: [967, 478]	 reward: [-419267.17, -334714.32]	 value: [212.11, 1147.13]
+INFO:root:round 200	 loss: [96.06, 1408.76]	 num: [2, 297]	 reward: [-159343.59, 3799.2]	 value: [213.34, 1159.57]
+INFO:root:round 201	 loss: [105.74, 1479.44]	 num: [5, 261]	 reward: [-74797.4, 25522.76]	 value: [209.12, 1143.99]
+INFO:root:round 202	 loss: [106.73, 1458.83]	 num: [9, 275]	 reward: [-220739.21, -13869.8]	 value: [211.95, 1152.41]
+INFO:root:round 203	 loss: [114.77, 1533.54]	 num: [1, 326]	 reward: [-114795.24, 6551.05]	 value: [213.27, 1155.62]
+INFO:root:round 204	 loss: [112.64, 1489.24]	 num: [13, 342]	 reward: [-97802.93, -11573.19]	 value: [209.51, 1113.41]
+INFO:root:round 205	 loss: [104.9, 1459.16]	 num: [3, 325]	 reward: [-152549.54, -9897.52]	 value: [206.02, 1175.19]
+INFO:root:round 206	 loss: [100.53, 1452.89]	 num: [18, 270]	 reward: [-152804.75, 23424.31]	 value: [202.1, 1129.27]
+INFO:root:round 207	 loss: [101.64, 1608.53]	 num: [6, 282]	 reward: [-160691.72, -138.34]	 value: [211.18, 1155.45]
+INFO:root:round 208	 loss: [108.49, 1635.39]	 num: [8, 383]	 reward: [-166908.56, -19466.52]	 value: [206.47, 1124.14]
+INFO:root:round 209	 loss: [110.72, 1652.44]	 num: [184, 303]	 reward: [-173181.61, -36170.63]	 value: [206.44, 1073.57]
+INFO:root:round 210	 loss: [114.97, 1890.49]	 num: [2, 297]	 reward: [-128239.77, 4266.34]	 value: [204.13, 1101.6]
+INFO:root:round 211	 loss: [113.36, 1868.87]	 num: [3, 317]	 reward: [-108299.8, -1125.9]	 value: [208.16, 1048.66]
+INFO:root:round 212	 loss: [112.95, 1935.36]	 num: [1, 243]	 reward: [-99664.73, 15047.6]	 value: [202.46, 1156.95]
+INFO:root:round 213	 loss: [110.99, 1970.51]	 num: [5, 199]	 reward: [-128995.06, 32749.34]	 value: [206.41, 1148.51]
+INFO:root:round 214	 loss: [107.58, 2057.55]	 num: [2, 217]	 reward: [-104977.02, 22712.17]	 value: [201.86, 1074.16]
+INFO:root:round 215	 loss: [104.51, 2109.7]	 num: [6, 289]	 reward: [-153254.97, -28761.1]	 value: [195.93, 1149.68]
+INFO:root:round 216	 loss: [100.53, 2215.32]	 num: [2, 344]	 reward: [-120743.77, 1444.64]	 value: [196.16, 1152.08]
+INFO:root:round 217	 loss: [95.34, 2061.16]	 num: [11, 444]	 reward: [-167948.17, -26389.97]	 value: [186.9, 1150.96]
+INFO:root:round 218	 loss: [99.06, 1940.42]	 num: [2, 290]	 reward: [-104957.6, 12729.53]	 value: [193.6, 1147.0]
+INFO:root:round 219	 loss: [101.38, 2042.76]	 num: [1, 289]	 reward: [-115643.16, 34903.32]	 value: [193.52, 1158.11]
+INFO:root:round 220	 loss: [95.9, 2050.14]	 num: [6, 274]	 reward: [-170547.34, 19528.33]	 value: [186.83, 1157.5]
+INFO:root:round 221	 loss: [91.94, 2050.87]	 num: [13, 284]	 reward: [-178167.87, -2462.01]	 value: [181.66, 1188.23]
+INFO:root:round 222	 loss: [90.91, 1903.09]	 num: [6, 350]	 reward: [-81309.92, -11404.4]	 value: [183.72, 1153.47]
+INFO:root:round 223	 loss: [91.19, 1936.93]	 num: [10, 209]	 reward: [-142080.97, 27552.95]	 value: [180.85, 1178.07]
+INFO:root:round 224	 loss: [89.19, 1832.95]	 num: [5, 238]	 reward: [-124648.06, 28003.19]	 value: [173.58, 1208.34]
+INFO:root:round 225	 loss: [93.13, 1891.49]	 num: [6, 242]	 reward: [-103148.81, 15429.19]	 value: [176.64, 1187.83]
+INFO:root:round 226	 loss: [88.01, 1894.62]	 num: [9, 221]	 reward: [-251278.13, 1791.08]	 value: [165.53, 1148.2]
+INFO:root:round 227	 loss: [90.17, 2019.65]	 num: [1, 272]	 reward: [-96697.38, 5980.7]	 value: [168.85, 1166.67]
+INFO:root:round 228	 loss: [89.78, 1943.13]	 num: [33, 358]	 reward: [-193429.68, -11798.02]	 value: [167.94, 1096.02]
+INFO:root:round 229	 loss: [87.25, 1896.91]	 num: [13, 290]	 reward: [-120422.32, -4940.17]	 value: [162.4, 1155.33]
+INFO:root:round 230	 loss: [90.34, 1823.12]	 num: [5, 182]	 reward: [-111583.55, 25613.37]	 value: [158.87, 1122.83]
+INFO:root:round 231	 loss: [91.86, 1824.98]	 num: [6, 170]	 reward: [-125026.55, 37431.79]	 value: [160.34, 1123.79]
+INFO:root:round 232	 loss: [96.69, 1907.52]	 num: [1, 251]	 reward: [-72311.22, 17936.17]	 value: [157.09, 1137.0]
+INFO:root:round 233	 loss: [97.98, 1990.41]	 num: [23, 196]	 reward: [-194231.98, 27909.31]	 value: [156.42, 1119.07]
+INFO:root:round 234	 loss: [102.51, 1909.71]	 num: [1, 192]	 reward: [-109894.14, 45233.14]	 value: [158.46, 1156.49]
+INFO:root:round 235	 loss: [96.29, 1947.56]	 num: [49, 156]	 reward: [-176781.39, 36215.19]	 value: [151.97, 1135.52]
+INFO:root:round 236	 loss: [100.36, 1894.74]	 num: [6, 143]	 reward: [-78317.64, 47554.43]	 value: [158.18, 1146.35]
+INFO:root:round 237	 loss: [104.51, 1909.83]	 num: [89, 270]	 reward: [-155216.18, -15434.86]	 value: [161.56, 1167.9]
+INFO:root:round 238	 loss: [112.6, 1986.47]	 num: [3, 216]	 reward: [-92854.73, 18189.28]	 value: [158.41, 1152.54]
+INFO:root:round 239	 loss: [122.34, 2056.09]	 num: [1, 181]	 reward: [-58688.81, 38768.28]	 value: [167.08, 1154.77]
+INFO:root:round 240	 loss: [122.97, 2037.17]	 num: [15, 122]	 reward: [-163521.04, 21233.75]	 value: [174.8, 1136.83]
+INFO:root:round 241	 loss: [126.39, 2118.48]	 num: [5, 145]	 reward: [-60678.91, 28648.24]	 value: [177.16, 1155.42]
+INFO:root:round 242	 loss: [130.69, 2283.78]	 num: [2, 277]	 reward: [-98229.47, -85.2]	 value: [179.43, 1163.69]
+INFO:root:round 243	 loss: [139.86, 2469.53]	 num: [151, 11]	 reward: [-124490.38, 34618.61]	 value: [174.57, 1155.72]
+INFO:root:round 244	 loss: [131.41, 2483.0]	 num: [18, 304]	 reward: [-130294.23, 4984.85]	 value: [183.77, 1151.46]
+INFO:root:round 245	 loss: [129.14, 2378.68]	 num: [20, 310]	 reward: [-200546.24, -12620.43]	 value: [169.25, 1162.16]
+INFO:root:round 246	 loss: [118.18, 2475.57]	 num: [127, 361]	 reward: [-167502.63, -48133.02]	 value: [176.35, 1146.28]
+INFO:root:round 247	 loss: [120.56, 2405.94]	 num: [32, 219]	 reward: [-111518.57, 17021.46]	 value: [168.97, 1138.12]
+INFO:root:round 248	 loss: [118.28, 2356.13]	 num: [3, 206]	 reward: [-68155.26, 30710.95]	 value: [172.05, 1123.62]
+INFO:root:round 249	 loss: [120.38, 2265.17]	 num: [41, 211]	 reward: [-205462.69, 6896.98]	 value: [176.25, 1119.07]
+INFO:root:round 250	 loss: [117.87, 2180.68]	 num: [1, 320]	 reward: [-147230.44, 30803.64]	 value: [174.73, 1113.14]
+INFO:root:round 251	 loss: [121.35, 2226.96]	 num: [1, 236]	 reward: [-92694.24, 30827.62]	 value: [179.25, 1097.49]
+INFO:root:round 252	 loss: [124.03, 2168.84]	 num: [4, 261]	 reward: [-77499.21, 19628.83]	 value: [179.62, 1072.46]
+INFO:root:round 253	 loss: [121.7, 1998.6]	 num: [1, 366]	 reward: [-78249.09, -18820.0]	 value: [173.61, 1104.56]
+INFO:root:round 254	 loss: [116.92, 2044.85]	 num: [6, 223]	 reward: [-105478.42, 15640.73]	 value: [174.8, 1096.81]
+INFO:root:round 255	 loss: [124.45, 2043.0]	 num: [5, 111]	 reward: [-76295.96, 52687.92]	 value: [177.43, 1087.98]
+INFO:root:round 256	 loss: [132.38, 1904.29]	 num: [3, 212]	 reward: [-106288.41, 35236.43]	 value: [181.86, 1039.77]
+INFO:root:round 257	 loss: [135.54, 1936.73]	 num: [35, 251]	 reward: [-127286.41, 18305.6]	 value: [189.51, 1052.72]
+INFO:root:round 258	 loss: [138.49, 1919.32]	 num: [1, 227]	 reward: [-108203.16, 24188.13]	 value: [189.62, 1041.83]
+INFO:root:round 259	 loss: [146.44, 1908.95]	 num: [6, 232]	 reward: [-94793.56, 28424.79]	 value: [201.93, 1016.34]
+INFO:root:round 260	 loss: [140.65, 1896.72]	 num: [36, 247]	 reward: [-138773.76, 9519.27]	 value: [192.55, 1065.89]
+INFO:root:round 261	 loss: [143.91, 1904.89]	 num: [3, 216]	 reward: [-73223.86, 37791.8]	 value: [188.58, 1057.93]
+INFO:root:round 262	 loss: [135.79, 1921.84]	 num: [1, 343]	 reward: [-64736.2, 44549.73]	 value: [198.29, 1061.6]
+INFO:root:round 263	 loss: [137.7, 1963.46]	 num: [1, 291]	 reward: [-98462.77, 40293.53]	 value: [190.64, 1059.28]
+INFO:root:round 264	 loss: [130.87, 1947.83]	 num: [1, 359]	 reward: [-65421.86, 15448.23]	 value: [187.36, 1072.78]
+INFO:root:round 265	 loss: [129.86, 2004.72]	 num: [1, 293]	 reward: [-125672.79, 24246.1]	 value: [190.47, 1077.42]
+INFO:root:round 266	 loss: [126.19, 1944.17]	 num: [17, 308]	 reward: [-92887.34, 1814.59]	 value: [187.18, 1059.46]
+INFO:root:round 267	 loss: [117.68, 1903.21]	 num: [4, 286]	 reward: [-113719.06, 19832.0]	 value: [184.24, 1056.04]
+INFO:root:round 268	 loss: [116.97, 1824.68]	 num: [1, 264]	 reward: [-69349.85, 30048.44]	 value: [184.05, 1063.66]
+INFO:root:round 269	 loss: [115.56, 1858.95]	 num: [1, 268]	 reward: [-58118.21, 27954.65]	 value: [177.82, 1047.64]
+INFO:root:round 270	 loss: [111.29, 1800.24]	 num: [22, 265]	 reward: [-102322.66, 28822.45]	 value: [171.25, 1073.94]
+INFO:root:round 271	 loss: [105.75, 1748.12]	 num: [14, 270]	 reward: [-98758.06, 11418.57]	 value: [176.17, 1065.88]
+INFO:root:round 272	 loss: [95.35, 1712.59]	 num: [1, 311]	 reward: [-90451.78, 1752.13]	 value: [176.41, 1046.53]
+INFO:root:round 273	 loss: [92.0, 1617.36]	 num: [1, 323]	 reward: [-117015.29, 30437.32]	 value: [168.65, 1045.85]
+INFO:root:round 274	 loss: [90.21, 1627.4]	 num: [3, 241]	 reward: [-78247.5, 12124.02]	 value: [168.71, 1055.06]
+INFO:root:round 275	 loss: [83.42, 1543.25]	 num: [4, 372]	 reward: [-83677.58, -3764.39]	 value: [164.5, 1066.91]

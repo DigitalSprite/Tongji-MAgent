@@ -17,7 +17,7 @@ import utils
 
 
 class BattleServer(BaseServer):
-    def __init__(self, path="data/battle_model", total_step=1000, add_counter=10, add_interval=50):
+    def __init__(self, path="data/battle_model_1000_vs_500", total_step=1000, add_counter=10, add_interval=50):
         # some parameter
         map_size = 125
         eps = 0.00
@@ -33,9 +33,9 @@ class BattleServer(BaseServer):
 
         # load model
         # tf.reset_default_graph()
-        models[0].load(path, 1219, 'trusty-battle-game-l')
+        models[0].load(path, 180, 'trusty-battle-game-l')
         # tf.reset_default_graph()
-        models[1].load(path, 1219, 'trusty-battle-game-r')
+        models[1].load(path, 180, 'trusty-battle-game-r')
 
         # init environment
         env.reset()
@@ -52,7 +52,6 @@ class BattleServer(BaseServer):
         self.add_counter = add_counter
         self.done = False
         self.total_handles = [self.env.get_num(self.handles[0]), self.env.get_num(self.handles[1])]
-        plt.show()
 
     def get_info(self):
         return (self.map_size, self.map_size), self.env._get_groups_info(), {'wall': self.env._get_walls_info()}
@@ -112,12 +111,13 @@ class BattleServer(BaseServer):
         return result
 
     def get_status(self, frame_id):
-        if frame_id % self.add_interval == 0 and self.add_counter > 0:
-            return False
-        elif frame_id >= self.total_step or self.done:
-            return None
-        else:
-            return True
+        # if frame_id % self.add_interval == 0 and self.add_counter > 0:
+        #     return False
+        # elif frame_id >= self.total_step or self.done:
+        #     return None
+        # else:
+        #     return True
+        return True
 
     def keydown(self, frame_id, key, mouse_x, mouse_y):
         return False

@@ -1,6 +1,9 @@
 import math
 import numpy as np
 
+import sys
+sys.path.append('..')
+
 import magent
 from models.tf_model import DeepQNetwork
 from renderer.server import BaseServer
@@ -51,7 +54,7 @@ def generate_map(env, map_size, handles):
 
     init_num = 20
 
-    gap = 3
+    gap = 10
     leftID, rightID = 0, 1
 
     # left
@@ -77,35 +80,23 @@ def generate_map(env, map_size, handles):
     n = init_num
     side = int(math.sqrt(n)) * 2
     pos = []
-    for x in range(width // 2 - gap - side, width // 2 - gap - side + side, 2):
-        for y in range((height - side) // 2, (height - side) // 2 + side, 2):
-            pos.append([x, y, 0])
-    env.add_agents(handles[leftID], method="custom", pos=pos)
-
-    # right
-    n = init_num
-    side = int(math.sqrt(n)) * 2
-    pos = []
-    for x in range(width // 2 + gap, width // 2 + gap + side, 4):
-        for y in range((height - side) // 2, (height - side) // 2 + side, 2):
-            pos.append([x, y, 0])
-    env.add_agents(handles[rightID], method="custom", pos=pos)
+    border = 40
+    x_num = 20
+    y_num = 25
+    x = np.random.randint(10, 10 + border - x_num)
+    y = np.random.randint(10, map_size - y_num * 2 - 10)
+    add_agents(env, x, y, handles[0], map_size, x_num, y_num * 2, agents_border=border, random=False)
+    x1 = np.random.randint(map_size - border - 10, map_size - x_num - 10)
+    y1 = np.random.randint(10, map_size - y_num- 10)
+    add_agents(env, x1, y1, handles[1], map_size, x_num, y_num, agents_border=border, random=False)
 
 
-def add_agents(env, x, y, handles, map_size, random=False):
+def add_agents(env, x, y, handle, map_size, x_num, y_num, agents_border=40, random=False):
     if random:
-        x = np.random.randint(0, map_size - 1)
-        y = np.random.randint(0, map_size - 1)
+        x = np.random.randint(0, agents_border - x_num)
+        y = np.random.randint(0, agents_border - y_num)
     pos = []
-    for i in range(-5, 5):
-        for j in range(-5, 5):
+    for i in range(0, x_num):
+        for j in range(0, y_num):
             pos.append((x + i, y + j))
-    env.add_agents(handles[0], method="custom", pos=pos)
-
-    pos = []
-    x = np.random.randint(0, map_size - 1)
-    y = np.random.randint(0, map_size - 1)
-    for i in range(-5, 0):
-        for j in range(-5, 5):
-            pos.append((x + i, y + j))
-    env.add_agents(handles[1], method="custom", pos=pos)
+    env.add_agents(handle, method="custom", pos=pos)
