@@ -43,6 +43,7 @@ public:
     // game
     void reset() override;
     void set_config(const char *key, void *p_value) override;
+    void init_terrain_map(int map_width, int map_height);
 
     // run step
     void get_observation(GroupHandle group, float **linear_buffers) override;
@@ -97,6 +98,7 @@ private:
     bool large_map_mode; // default = False
     bool mean_mode;      
     int embedding_size;  // default = 0
+    std::vector<std::vector<int>> terrain_map;
 
     // game states : map, agent and group
     Map map;
@@ -227,89 +229,89 @@ public:
         goal_radius = radius;
     }
 
-private:
-    int id;
-    bool dead;
-    bool absorbed;
+    private:
+        int id;
+        bool dead;
+        bool absorbed;
 
-    Position pos;
-    Direction dir;
-    float hp;
+        Position pos;
+        Direction dir;
+        float hp;
 
-    EventOp last_op;
-    void *op_obj;
+        EventOp last_op;
+        void *op_obj;
 
-    Action last_action;
-    Reward next_reward, last_reward;
-    AgentType &type;
-    GroupHandle group;
-    int index;
+        Action last_action;
+        Reward next_reward, last_reward;
+        AgentType &type;
+        GroupHandle group;
+        int index;
 
-    bool be_involved;
+        bool be_involved;
 
-    std::vector<float> embedding;
-    Position goal;
-    int goal_radius;
+        std::vector<float> embedding;
+        Position goal;
+        int goal_radius;
 };
 
 
 class Group {
-public:
-    Group(AgentType &type) : type(type), dead_ct(0), next_reward(0),
-                             center_x(0), center_y(0), recursive_base(0) {
-    }
-
-    void add_agent(Agent *agent) {
-        agents.push_back(agent);
-    }
-
-    int get_num()       { return (int)agents.size(); }
-    int get_alive_num() { return get_num() - dead_ct; }
-    size_t get_size()   { return agents.size(); }
-
-    std::vector<Agent*> &get_agents() { return agents; }
-    AgentType &get_type()             { return type; }
-
-    void set_dead_ct(int ct) { dead_ct = ct; }
-    int  get_dead_ct() const { return dead_ct; }
-    void inc_dead_ct()       { dead_ct++; }
-
-    void clear() {
-        agents.clear();
-        dead_ct = 0;
-    }
-
-    void init_reward() { next_reward = 0; }
-    Reward get_reward()         { return next_reward; }
-    void add_reward(Reward add) { next_reward += add; }
-
-    // use a base to eliminate duplicates in Gridworld::calc_reward
-    int get_recursive_base() {
-        return recursive_base;
-    }
-    void set_recursive_base(int base) { recursive_base = base; }
-
-    void set_center(float cx, float cy) { center_x = cx; center_y = cy; }
-    void get_center(float &cx,float &cy) { cx = center_x; cy = center_y; }
-    void refresh_center() {
-        float sum_x = 0, sum_y = 0;
-        for (int i = 0; i < agents.size(); i++) {
-            sum_x += agents[i]->get_pos().x;
-            sum_y += agents[i]->get_pos().y;
+    public:
+        Group(AgentType &type) : type(type), dead_ct(0), next_reward(0),
+                                center_x(0), center_y(0), recursive_base(0) {
         }
-        center_x = sum_x / agents.size();
-        center_y = sum_y / agents.size();
-    }
 
-private:
-    AgentType &type;
-    std::vector<Agent*> agents;
-    int dead_ct;
+        void add_agent(Agent *agent) {
+            agents.push_back(agent);
+        }
 
-    Reward next_reward; // group reward
-    float center_x, center_y;
+        int get_num()       { return (int)agents.size(); }
+        int get_alive_num() { return get_num() - dead_ct; }
+        size_t get_size()   { return agents.size(); }
 
-    int recursive_base;
+        std::vector<Agent*> &get_agents() { return agents; }
+        AgentType &get_type()             { return type; }
+
+        void set_dead_ct(int ct) { dead_ct = ct; }
+        int  get_dead_ct() const { return dead_ct; }
+        void inc_dead_ct()       { dead_ct++; }
+
+        void clear() {
+            agents.clear();
+            dead_ct = 0;
+        }
+
+        void init_reward() { next_reward = 0; }
+        Reward get_reward()         { return next_reward; }
+        void add_reward(Reward add) { next_reward += add; }
+
+        // use a base to eliminate duplicates in Gridworld::calc_reward
+        int get_recursive_base() {
+            return recursive_base;
+        }
+        void set_recursive_base(int base) { recursive_base = base; }
+
+        void set_center(float cx, float cy) { center_x = cx; center_y = cy; }
+        void get_center(float &cx,float &cy) { cx = center_x; cy = center_y; }
+        void refresh_center() {
+            float sum_x = 0, sum_y = 0;
+            for (int i = 0; i < agents.size(); i++) {
+                sum_x += agents[i]->get_pos().x;
+                sum_y += agents[i]->get_pos().y;
+            }
+            center_x = sum_x / agents.size();
+            center_y = sum_y / agents.size();
+        }
+
+    private:
+        AgentType &type;
+        std::vector<Agent*> agents;
+        int dead_ct;
+
+        Reward next_reward; // group reward
+        float center_x, center_y;
+
+        int recursive_base;
 };
 
 struct MoveAction {

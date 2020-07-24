@@ -17,5 +17,5 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     make -j `sysctl -n hw.ncpu`
 fi
 
-
+pwd
 mv libmagent.so ../../MAgent/magent/libmagent.so

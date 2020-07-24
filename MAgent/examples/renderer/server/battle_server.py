@@ -33,9 +33,9 @@ class BattleServer(BaseServer):
 
         # load model
         # tf.reset_default_graph()
-        models[0].load(path, 180, 'trusty-battle-game-l')
+        models[0].load(path, 1500, 'trusty-battle-game-l')
         # tf.reset_default_graph()
-        models[1].load(path, 180, 'trusty-battle-game-r')
+        models[1].load(path, 1500, 'trusty-battle-game-r')
 
         # init environment
         env.reset()
@@ -85,9 +85,6 @@ class BattleServer(BaseServer):
         pos, event = self.env._get_render_info(x_range, y_range)
         print(" fps ", 1 / (time.time() - start))
         return pos, event
-
-    def add_agents(self, x, y, g):
-        utils.add_agents(self.env, x, y, self.handles, self.map_size)
 
     def get_map_size(self):
         return self.map_size, self.map_size

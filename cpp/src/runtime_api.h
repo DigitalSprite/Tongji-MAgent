@@ -20,6 +20,7 @@ using ::magent::environment::GroupHandle;
 int env_new_game(EnvHandle *game, const char *name);
 int env_delete_game(EnvHandle game);
 int env_config_game(EnvHandle game, const char *name, void *p_value);
+int env_init_terrain_map(EnvHandle game, int map_width, int map_height);
 
 // run step
 int env_reset(EnvHandle game);

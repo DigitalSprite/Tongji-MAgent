@@ -127,7 +127,7 @@ void GridWorld::set_config(const char *key, void *p_value) {
         width = ivalue;
     else if (strequ(key, "map_height"))
         height = ivalue;
-
+        
     else if (strequ(key, "food_mode"))      // dead agent will leave food in the map
         food_mode = bvalue;
     else if (strequ(key, "turn_mode"))      // has two more actions -- turn left and turn right
@@ -146,6 +146,16 @@ void GridWorld::set_config(const char *key, void *p_value) {
 
     else
         LOG(FATAL) << "invalid argument in GridWorld::set_config : " << key;
+}
+
+void GridWorld::init_terrain_map(int map_width, int map_height) {
+    for (int h = 0; h < map_height; h++) {
+        std::vector<int> temp_terrain;
+        for (int w = 0; w < map_width; w++) {
+            temp_terrain.push_back(0);
+        }
+        terrain_map.push_back(temp_terrain);
+    }
 }
 
 void GridWorld::register_agent_type(const char *name, int n, const char **keys, float *values) {

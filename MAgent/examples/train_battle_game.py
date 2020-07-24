@@ -145,6 +145,7 @@ if __name__ == "__main__":
     parser.add_argument("--name", type=str, default="trusty-battle")
     parser.add_argument("--eval", action="store_true")
     parser.add_argument('--alg', default='dqn', choices=['dqn', 'drqn', 'a2c', 'ppo'])
+    parser.add_argument("--savedir", default='data/battle_model')
     args = parser.parse_args()
 
     # set logger
@@ -201,7 +202,7 @@ if __name__ == "__main__":
         models.append(ProcessingModel(env, handles[i], names[i], 20000, 1000, RLModel, **model_args))
 
     # load if
-    savedir = 'data/battle_model_1000_vs_500'
+    savedir = args.savedir
     if args.load_from is not None:
         start_from = args.load_from
         print("load ... %d" % start_from)
