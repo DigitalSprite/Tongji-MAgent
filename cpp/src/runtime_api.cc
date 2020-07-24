@@ -37,6 +37,11 @@ int env_config_game(EnvHandle game, const char *name, void *p_value) {
     return 0;
 }
 
+int env_init_terrain_map(EnvHandle game, int map_width, int map_height) {
+    ((::magent::gridworld::GridWorld *)game)->init_terrain_map(map_width, map_height);
+    return 0;
+}
+
 // run step
 int env_reset(EnvHandle game) {
     LOG(TRACE) << "env reset.  ";

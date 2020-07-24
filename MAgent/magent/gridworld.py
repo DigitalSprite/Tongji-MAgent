@@ -61,6 +61,7 @@ class GridWorld(Environment):
                 _LIB.env_config_game(self.game, key.encode("ascii"), ctypes.byref(ctypes.c_float(config.config_dict[key])))
             elif value_type is str:
                 _LIB.env_config_game(self.game, key.encode("ascii"), ctypes.c_char_p(config.config_dict[key]))
+        # _LIB.env_create_terrain_map(self.game, config.config_dict['map_width'], config.config_dict['map_height'])
 
         # register agent types
         for name in config.agent_type_dict:
@@ -117,6 +118,9 @@ class GridWorld(Environment):
     def reset(self):
         """reset environment"""
         _LIB.env_reset(self.game)
+    
+    def init_terrain(self, width, height):
+        _LIB.env_init_terrain_map(self.game, ctypes.c_int32(width), ctypes.c_int32(height))
 
     def add_walls(self, method, **kwargs):
         """add wall to environment

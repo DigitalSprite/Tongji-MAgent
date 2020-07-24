@@ -32,7 +32,7 @@ def load_config(map_size):
         "big",
         {'width': 1, 'length': 1, 'hp': 10, 'speed': 2,
          'view_range': gw.CircleRange(6), 'attack_range': gw.CircleRange(1.5),
-         'damage': 4, 'step_recover': 0.1,
+         'damage': 3, 'step_recover': 0.1,
          'step_reward': -0.001, 'kill_reward': 100, 'dead_penalty': -0.05, 'attack_penalty': -1,
          })
 
@@ -52,10 +52,12 @@ def generate_map(env, map_size, handles):
     width = map_size
     height = map_size
 
+    env.init_terrain(width, height)
+
     init_num = 20
 
-    gap = 10
-    leftID, rightID = 0, 1
+    # gap = 10
+    # leftID, rightID = 0, 1
 
     # left
     # pos = []
@@ -73,30 +75,33 @@ def generate_map(env, map_size, handles):
     #     pos.append((width / 2 + 5, y))
     #     pos.append((width / 2 + 4, y))
     # env.add_walls(pos=pos, method="custom")
-    xs = [i for i in range(10)]
-    ys = [i for i in range(10)]
-    env.add_terrain('water', xs, ys)
 
-    n = init_num
-    side = int(math.sqrt(n)) * 2
-    pos = []
+    
+    # xs = [i for i in range(10)]
+    # ys = [i for i in range(10)]
+    # env.add_terrain('water', xs, ys)
+
+    # n = init_num
+    # side = int(math.sqrt(n)) * 2
+    # pos = []
     border = 40
     x_num = 20
     y_num = 25
     x = np.random.randint(10, 10 + border - x_num)
     y = np.random.randint(10, map_size - y_num * 2 - 10)
-    add_agents(env, x, y, handles[0], map_size, x_num, y_num * 2, agents_border=border, random=False)
+    add_agents(env, x, y, handles[0], map_size, x_num, y_num * 2, agents_border=border, random=True)
     x1 = np.random.randint(map_size - border - 10, map_size - x_num - 10)
     y1 = np.random.randint(10, map_size - y_num- 10)
-    add_agents(env, x1, y1, handles[1], map_size, x_num, y_num, agents_border=border, random=False)
+    add_agents(env, x1, y1, handles[1], map_size, x_num, y_num, agents_border=border, random=True)
 
 
 def add_agents(env, x, y, handle, map_size, x_num, y_num, agents_border=40, random=False):
     if random:
-        x = np.random.randint(0, agents_border - x_num)
-        y = np.random.randint(0, agents_border - y_num)
-    pos = []
-    for i in range(0, x_num):
-        for j in range(0, y_num):
-            pos.append((x + i, y + j))
-    env.add_agents(handle, method="custom", pos=pos)
+        env.add_agents(handle, method="random", n = x_num*y_num)
+    else:
+        pos = []
+        for i in range(0, x_num):
+            for j in range(0, y_num):
+                pos.append((x + i, y + j))
+        
+        env.add_agents(handle, method='custom', pos=pos)
