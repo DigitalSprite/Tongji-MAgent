@@ -32,7 +32,7 @@ def load_config(map_size):
         "big",
         {'width': 1, 'length': 1, 'hp': 10, 'speed': 2,
          'view_range': gw.CircleRange(6), 'attack_range': gw.CircleRange(1.5),
-         'damage': 3, 'step_recover': 0.1,
+         'damage': 4, 'step_recover': 0.1,
          'step_reward': -0.001, 'kill_reward': 100, 'dead_penalty': -0.05, 'attack_penalty': -1,
          })
 
@@ -52,7 +52,7 @@ def generate_map(env, map_size, handles):
     width = map_size
     height = map_size
 
-    env.init_terrain(width, height)
+    # env.init_terrain(width, height)
 
     init_num = 20
 

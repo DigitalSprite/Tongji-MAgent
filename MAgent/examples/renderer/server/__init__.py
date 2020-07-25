@@ -4,3 +4,4 @@ from .random_server import RandomServer
 from .battle_server import BattleServer
 from .arrange_server import ArrangeServer
 from .pursuit_server import PursuitServer
+from .against_server import Againstserver
