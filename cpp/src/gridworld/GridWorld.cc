@@ -155,6 +155,7 @@ void GridWorld::init_terrain_map(int map_width, int map_height) {
             temp_terrain.push_back(0);
         }
         terrain_map.push_back(temp_terrain);
+        std::cout << terrain_map[h][0] << std::endl;
     }
 }
 

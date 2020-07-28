@@ -38,12 +38,17 @@ def load_config(map_size):
 
     g0 = cfg.add_group(small)
     g1 = cfg.add_group(big)
+    g2 = cfg.add_group(small)
+    
 
     a = gw.AgentSymbol(g0, index='any')
     b = gw.AgentSymbol(g1, index='any')
+    c = gw.AgentSymbol(g2, index='any')
 
     cfg.add_reward_rule(gw.Event(a, 'attack', b), receiver=a, value=2)
     cfg.add_reward_rule(gw.Event(b, 'attack', a), receiver=b, value=2)
+    cfg.add_reward_rule(gw.Event(c, 'attack', b), receiver=c, value=2)
+    cfg.add_reward_rule(gw.Event(b, 'attack', c), receiver=b, value=2)
 
     return cfg
 
@@ -52,7 +57,7 @@ def generate_map(env, map_size, handles):
     width = map_size
     height = map_size
 
-    # env.init_terrain(width, height)
+    env.init_terrain(width, height)
 
     init_num = 20
 
@@ -88,11 +93,14 @@ def generate_map(env, map_size, handles):
     x_num = 20
     y_num = 25
     x = np.random.randint(10, 10 + border - x_num)
-    y = np.random.randint(10, map_size - y_num * 2 - 10)
-    add_agents(env, x, y, handles[0], map_size, x_num, y_num * 2, agents_border=border, random=True)
+    y = np.random.randint(10, map_size - y_num * 2 - 50)
+    add_agents(env, x, y, handles[0], map_size, x_num, y_num, agents_border=border, random=False)
+
+    add_agents(env, x, y + y_num + 30, handles[2], map_size, x_num, y_num, agents_border=border, random=False)
+
     x1 = np.random.randint(map_size - border - 10, map_size - x_num - 10)
     y1 = np.random.randint(10, map_size - y_num- 10)
-    add_agents(env, x1, y1, handles[1], map_size, x_num, y_num, agents_border=border, random=True)
+    add_agents(env, x1, y1, handles[1], map_size, x_num, y_num, agents_border=border, random=False)
 
 
 def add_agents(env, x, y, handle, map_size, x_num, y_num, agents_border=40, random=False):

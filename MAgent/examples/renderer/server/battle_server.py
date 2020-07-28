@@ -17,7 +17,7 @@ import utils
 
 
 class BattleServer(BaseServer):
-    def __init__(self, path="data/battle_model_1000_vs_500", total_step=1000, add_counter=10, add_interval=50):
+    def __init__(self, path="data/battle_model_3_players", total_step=1000, add_counter=10, add_interval=50):
         # some parameter
         map_size = 125
         eps = 0.00
@@ -27,15 +27,17 @@ class BattleServer(BaseServer):
 
         handles = env.get_handles()
         models = []
-        models.append(DeepQNetwork(env, handles[0], 'trusty-battle-game-l', use_conv=True))
-        models.append(DeepQNetwork(env, handles[1], 'trusty-battle-game-r', use_conv=True))
+        models.append(DeepQNetwork(env, handles[0], 'trusty-battle-game-l1', use_conv=True))
+        models.append(DeepQNetwork(env, handles[1], 'trusty-battle-game-l2', use_conv=True))
+        models.append(DeepQNetwork(env, handles[2], 'trusty-battle-game-r', use_conv=True))
         
 
         # load model
         # tf.reset_default_graph()
-        models[0].load(path, 1500, 'trusty-battle-game-l')
+        models[0].load(path, 1, 'trusty-battle-game-l1')
+        models[1].load(path, 1, 'trusty-battle-game-l2')
         # tf.reset_default_graph()
-        models[1].load(path, 1500, 'trusty-battle-game-r')
+        models[2].load(path, 1, 'trusty-battle-game-r')
 
         # init environment
         env.reset()

@@ -134,7 +134,7 @@ def play_a_round(env, map_size, handles, models, print_every, train=True, render
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--save_every", type=int, default=10)
+    parser.add_argument("--save_every", type=int, default=20)
     parser.add_argument("--render_every", type=int, default=10)
     parser.add_argument("--n_round", type=int, default=1500)
     parser.add_argument("--render", action="store_true")
@@ -145,7 +145,7 @@ if __name__ == "__main__":
     parser.add_argument("--name", type=str, default="trusty-battle")
     parser.add_argument("--eval", action="store_true")
     parser.add_argument('--alg', default='dqn', choices=['dqn', 'drqn', 'a2c', 'ppo'])
-    parser.add_argument("--savedir", default='data/battle_model')
+    parser.add_argument("--savedir", default='data/battle_model_3_players')
     args = parser.parse_args()
 
     # set logger
@@ -159,7 +159,7 @@ if __name__ == "__main__":
     handles = env.get_handles()
 
     # sample eval observation set
-    eval_obs = [None, None]
+    eval_obs = [None, None, None]
     if args.eval:
         print("sample eval set...")
         env.reset()
@@ -193,7 +193,7 @@ if __name__ == "__main__":
         raise NotImplementedError
 
     # init models
-    names = [args.name + "-game-l", args.name + "-game-r"]
+    names = [args.name + "-game-l1", args.name + "-game-l2", args.name + "-game-r"]
     models = []
 
     for i in range(len(names)):

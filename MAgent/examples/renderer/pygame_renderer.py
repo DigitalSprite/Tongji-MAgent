@@ -37,8 +37,7 @@ class PyGameRenderer(BaseRenderer):
             grid_min_size=2,
             grid_max_size=100,
             zoom_rate=1 / 30,
-            move_rate=4,
-            full_screen=False
+            move_rate=4
     ):
         def draw_line(surface, color, a, b):
             pygame.draw.line(
@@ -87,10 +86,7 @@ class PyGameRenderer(BaseRenderer):
 
         clock = pygame.time.Clock()
         
-        if full_screen:
-            canvas = pygame.display.set_mode(resolution, pygame.DOUBLEBUF | pygame.FULLSCREEN, 0)
-        else:
-            canvas = pygame.display.set_mode(resolution, pygame.DOUBLEBUF, 0)
+        canvas = pygame.display.set_mode(resolution, pygame.DOUBLEBUF, 0)
 
         pygame.display.set_caption('MAgent Renderer Window')
         text_formatter = pygame.font.SysFont(None, text_size, True)
@@ -229,7 +225,6 @@ class PyGameRenderer(BaseRenderer):
             #                         (x * grid_size - view_position[0], y * grid_size - view_position[1]),
             #                         grid_size, grid_size, resolution)
             pygame.pixelcopy.array_to_surface(canvas, grid_map)
-            print(grid_map)
 
             if new_data is None or animation_progress > animation_total + animation_stop:
                 buffered_new_data = server.get_data(
@@ -271,7 +266,6 @@ class PyGameRenderer(BaseRenderer):
                         now_group[0] * grid_size,
                         now_group[1] * grid_size
                     )
-                print(new_data[0])
 
                 for key, event_x, event_y in new_data[1]:
                     if not key in new_data[0]:
