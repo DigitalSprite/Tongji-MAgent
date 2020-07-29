@@ -5,6 +5,9 @@ Act like a general and dispatch your solders.
 
 import os
 
+import sys
+sys.path.append('..')
+
 import magent
 from renderer import PyGameRenderer
 from renderer.server import Againstserver as Server

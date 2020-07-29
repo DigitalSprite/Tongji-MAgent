@@ -28,14 +28,14 @@ class BattleServer(BaseServer):
         handles = env.get_handles()
         models = []
         models.append(DeepQNetwork(env, handles[0], 'trusty-battle-game-l1', use_conv=True))
-        models.append(DeepQNetwork(env, handles[1], 'trusty-battle-game-l2', use_conv=True))
-        models.append(DeepQNetwork(env, handles[2], 'trusty-battle-game-r', use_conv=True))
+        # models.append(DeepQNetwork(env, handles[1], 'trusty-battle-game-l2', use_conv=True))
+        models.append(DeepQNetwork(env, handles[1], 'trusty-battle-game-r', use_conv=True))
         
 
         # load model
         # tf.reset_default_graph()
         models[0].load(path, 1, 'trusty-battle-game-l1')
-        models[1].load(path, 1, 'trusty-battle-game-l2')
+        # models[1].load(path, 1, 'trusty-battle-game-l2')
         # tf.reset_default_graph()
         models[2].load(path, 1, 'trusty-battle-game-r')
 

@@ -25,30 +25,30 @@ def load_config(map_size):
         {'width': 1, 'length': 1, 'hp': 10, 'speed': 2,
          'view_range': gw.CircleRange(6), 'attack_range': gw.CircleRange(1.5),
          'damage': 2, 'step_recover': 0.1,
-         'step_reward': -0.001, 'kill_reward': 100, 'dead_penalty': -0.05, 'attack_penalty': -1,
+         'step_reward': -0.01, 'kill_reward': 200, 'dead_penalty': -0.05, 'attack_penalty': -1,
          })
 
     big = cfg.register_agent_type(
         "big",
         {'width': 1, 'length': 1, 'hp': 10, 'speed': 2,
          'view_range': gw.CircleRange(6), 'attack_range': gw.CircleRange(1.5),
-         'damage': 4, 'step_recover': 0.1,
-         'step_reward': -0.001, 'kill_reward': 100, 'dead_penalty': -0.05, 'attack_penalty': -1,
+         'damage': 3, 'step_recover': 0.1,
+         'step_reward': -0.01, 'kill_reward': 100, 'dead_penalty': -0.05, 'attack_penalty': -1,
          })
 
     g0 = cfg.add_group(small)
     g1 = cfg.add_group(big)
-    g2 = cfg.add_group(small)
+    # g2 = cfg.add_group(small)
     
 
     a = gw.AgentSymbol(g0, index='any')
     b = gw.AgentSymbol(g1, index='any')
-    c = gw.AgentSymbol(g2, index='any')
+    # c = gw.AgentSymbol(g2, index='any')
 
     cfg.add_reward_rule(gw.Event(a, 'attack', b), receiver=a, value=2)
     cfg.add_reward_rule(gw.Event(b, 'attack', a), receiver=b, value=2)
-    cfg.add_reward_rule(gw.Event(c, 'attack', b), receiver=c, value=2)
-    cfg.add_reward_rule(gw.Event(b, 'attack', c), receiver=b, value=2)
+    # cfg.add_reward_rule(gw.Event(c, 'attack', b), receiver=c, value=2)
+    # cfg.add_reward_rule(gw.Event(b, 'attack', c), receiver=b, value=2)
 
     return cfg
 
@@ -94,13 +94,16 @@ def generate_map(env, map_size, handles):
     y_num = 25
     x = np.random.randint(10, 10 + border - x_num)
     y = np.random.randint(10, map_size - y_num * 2 - 50)
-    add_agents(env, x, y, handles[0], map_size, x_num, y_num, agents_border=border, random=False)
+    print(x, y)
+    add_agents(env, x, y, handles[0], map_size, x_num, y_num * 2, agents_border=border, random=False)
 
-    add_agents(env, x, y + y_num + 30, handles[2], map_size, x_num, y_num, agents_border=border, random=False)
+    # add_agents(env, x, y + y_num + 30, handles[2], map_size, x_num, y_num, agents_border=border, random=False)
 
     x1 = np.random.randint(map_size - border - 10, map_size - x_num - 10)
-    y1 = np.random.randint(10, map_size - y_num- 10)
+    y1 = np.random.randint(10, map_size - y_num- 50)
+    print(x1, y1)
     add_agents(env, x1, y1, handles[1], map_size, x_num, y_num, agents_border=border, random=False)
+    return x, y, x1, y1
 
 
 def add_agents(env, x, y, handle, map_size, x_num, y_num, agents_border=40, random=False):
@@ -110,6 +113,7 @@ def add_agents(env, x, y, handle, map_size, x_num, y_num, agents_border=40, rand
         pos = []
         for i in range(0, x_num):
             for j in range(0, y_num):
-                pos.append((x + i, y + j))
+                pos.append([x + i, y + j])
+                # print(x + i, y + j)
         
         env.add_agents(handle, method='custom', pos=pos)

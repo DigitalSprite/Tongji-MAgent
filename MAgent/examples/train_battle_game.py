@@ -193,7 +193,7 @@ if __name__ == "__main__":
         raise NotImplementedError
 
     # init models
-    names = [args.name + "-game-l1", args.name + "-game-l2", args.name + "-game-r"]
+    names = [args.name + "-game-l", args.name + "-game-r"]
     models = []
 
     for i in range(len(names)):

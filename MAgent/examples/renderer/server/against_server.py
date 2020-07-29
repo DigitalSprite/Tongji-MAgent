@@ -7,6 +7,7 @@ import numpy as np
 import magent
 from models.tf_model import DeepQNetwork
 from renderer.server import BaseServer
+import utils
 
 def generate_map(env, map_size, handles):
     width = height = map_size
@@ -22,6 +23,7 @@ def generate_map(env, map_size, handles):
     for x in range(width//2 - gap - side, width//2 - gap - side + side, 2):
         for y in range((height - side)//2, (height - side)//2 + side, 2):
             pos.append([x, y, 0])
+            print(x, y, 0)
     env.add_agents(handles[leftID], method="custom", pos=pos)
 
     # add right square of agents
@@ -31,11 +33,12 @@ def generate_map(env, map_size, handles):
     for x in range(width//2 + gap, width//2 + gap + side, 2):
         for y in range((height - side)//2, (height - side)//2 + side, 2):
             pos.append([x, y, 0])
+            print(x, y, 0)
     env.add_agents(handles[rightID], method="custom", pos=pos)
 
 
 class Againstserver(BaseServer):
-    def __init__(self, path="data/battle_model", total_step=500):
+    def __init__(self, path="data/against_v2", total_step=500):
         # some parameter
         map_size = 125
         eps = 0.00
@@ -49,12 +52,17 @@ class Againstserver(BaseServer):
         models.append(DeepQNetwork(env, handles[1], 'battle', use_conv=True))
 
         # load model
-        models[0].load(path, 0, 'trusty-battle-game-l')
-        models[1].load(path, 0, 'battle')
+        # models[0].load(path, 999, 'against-a')
+        # # models[0].load('data/battle_model_1000_vs_500', 1500, 'trusty-battle-game-l')
+        # models[1].load(path, 999, 'battle')
+        # 
+        models[0].load("data/battle_model_1000_vs_500", 1500, 'trusty-battle-game-l')
+        models[1].load("data/battle_model_1000_vs_500", 1500, 'trusty-battle-game-r')
 
         # init environment
         env.reset()
-        generate_map(env, map_size, handles)
+        x0, y0, x1, y1 = utils.generate_map(env, map_size, handles)
+        # generate_map(env, map_size, handles)
 
         # save to member variable
         self.env = env
@@ -65,8 +73,6 @@ class Againstserver(BaseServer):
         self.total_step = total_step
         self.done = False
         self.total_handles = [self.env.get_num(self.handles[0]), self.env.get_num(self.handles[1])]
-        print(env.get_view2attack(handles[0]))
-        plt.show()
 
     def get_info(self):
         return (self.map_size, self.map_size), self.env._get_groups_info(), {'wall': self.env._get_walls_info()}

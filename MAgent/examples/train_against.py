@@ -18,6 +18,7 @@ import magent
 from models.rule_model import RandomActor
 from models import buffer
 from model import ProcessingModel
+import utils
 
 
 def generate_map(env, map_size, handles):
@@ -47,10 +48,11 @@ def generate_map(env, map_size, handles):
 
 
 def play_a_round(env, map_size, handles, models, print_every, eps, step_batch_size=None, train=True,
-                 train_id=1, render=False):
+                 train_id=0, render=False):
     """play a round of game"""
     env.reset()
-    generate_map(env, map_size, handles)
+    # generate_map(env, map_size, handles)
+    x0, y0, x1, y1 = utils.generate_map(env, args.map_size, handles)
 
     step_ct = 0
     done = False
@@ -87,6 +89,13 @@ def play_a_round(env, map_size, handles, models, print_every, eps, step_batch_si
         step_reward = []
         for i in range(n):
             rewards = env.get_reward(handles[i])
+            pos = env.get_pos(handles[i])
+            if i == 0:
+                for (x, y) in pos:
+                    rewards -= ((1.0 * x / map_size - x1 / map_size) ** 2 + (1.0 * y / map_size - y1 / map_size) ** 2) / 50
+            elif i == 1:
+                for (x, y) in pos:
+                    rewards -= ((1.0 * x / map_size - x0 / map_size) ** 2 + (1.0 * y / map_size - y0 / map_size) ** 2) / 50
             if train and i == train_id:
                 alives = env.get_alive(handles[train_id])
                 # store samples in replay buffer (non-blocking)
@@ -139,9 +148,9 @@ def play_a_round(env, map_size, handles, models, print_every, eps, step_batch_si
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--save_every", type=int, default=5)
+    parser.add_argument("--save_every", type=int, default=20)
     parser.add_argument("--render_every", type=int, default=10)
-    parser.add_argument("--n_round", type=int, default=600)
+    parser.add_argument("--n_round", type=int, default=1000)
     parser.add_argument("--n_step", type=int, default=550)
     parser.add_argument("--render", action="store_true")
     parser.add_argument("--load_from", type=int)
@@ -184,26 +193,26 @@ if __name__ == "__main__":
 
     models = []
 
-    # load opponent
-    if args.opponent > 0:
-        from models.tf_model import DeepQNetwork
-        models.append(ProcessingModel(env, handles[1], names[1], 20000, 0, DeepQNetwork))
-        models[0].load("data/against_model", args.opponent)
-    else:
-        models.append(ProcessingModel(env, handles[1], names[1], 20000, 0, RandomActor))
-
     # load our model
     if args.alg == 'dqn':
         from models.tf_model import DeepQNetwork
-        models.append(ProcessingModel(env, handles[0], names[0], 20001, 1000, DeepQNetwork,
-                                   batch_size=batch_size,
-                                   learning_rate=3e-4,
-                                   memory_size=2 ** 20, train_freq=train_freq, eval_obs=eval_obs[0]))
+        RLModel = DeepQNetwork
+        base_args = {'batch_size': batch_size,
+                     'memory_size': 2 ** 21, 'learning_rate': 1e-4,
+                     'target_update': 1200, 'train_freq': 5}
+        model_args = {'eval_obs': eval_obs[0]}
+        model_args.update(base_args)
+        models.append(ProcessingModel(env, handles[0], names[0], 20000, 1000, RLModel, **model_args))
+
+        # models.append(ProcessingModel(env, handles[0], names[0], 20001, 1000, DeepQNetwork,
+        #                            batch_size=batch_size,
+        #                            learning_rate=3e-4,
+        #                            memory_size=2 ** 20, train_freq=train_freq, eval_obs=eval_obs[0]))
 
         step_batch_size = None
     elif args.alg == 'drqn':
         from models.tf_model import DeepRecurrentQNetwork
-        models.append(magent.ProcessingModel(env, handles[0], names[0], 20001, 1000, DeepRecurrentQNetwork,
+        models.append(ProcessingModel(env, handles[0], names[0], 20001, 1000, DeepRecurrentQNetwork,
                                    batch_size=batch_size/unroll_step, unroll_step=unroll_step,
                                    learning_rate=3e-4,
                                    memory_size=4 * 625, train_freq=train_freq, eval_obs=eval_obs[0]))
@@ -218,14 +227,26 @@ if __name__ == "__main__":
         step_batch_size = 10 * args.map_size * args.map_size * 0.04
         models.append(ProcessingModel(env, handles[0], names[0], 20001, 1000, PPO,
                                              learning_rate=1e-3))
+
     # load if
-    savedir = 'save_model'
+    savedir = 'data/against_v2'
     if args.load_from is not None:
         start_from = args.load_from
         print("load ... %d" % start_from)
         models[0].load(savedir, start_from)
     else:
         start_from = 0
+
+    # load opponent
+    if args.opponent >= 0:
+        from models.tf_model import DeepQNetwork
+        models.append(ProcessingModel(env, handles[1], names[1], 20000, 0, DeepQNetwork))
+        
+    else:
+        models.append(ProcessingModel(env, handles[1], names[1], 20000, 0, RandomActor))
+    models[0].load("data/battle_model_1000_vs_500", 1500, 'trusty-battle-game-l')
+    models[1].load("data/battle_model_1000_vs_500", 1500, 'trusty-battle-game-r')
+    
 
     # print debug info
     print(args)
